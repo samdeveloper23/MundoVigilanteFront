@@ -1,0 +1,18 @@
+.contact-title {
+    text-align: center;
+    margin-top: 5rem;
+    color: var(--primerColor);
+    margin-bottom: -2rem;
+}
+
+.contact-h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--primerColor);
+}
+
+.contact-info {
+    text-align: center;
+    padding: 0rem 1rem;
+    color: blue;
+}

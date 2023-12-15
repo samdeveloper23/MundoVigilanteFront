@@ -1,0 +1,101 @@
+.publicationForm form {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ubication-pub {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--tercerColor);
+    width: 7rem;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
+}
+.titleForm {
+    padding: 0 0.5rem 0 0.5rem;
+    width: 9rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: var(--tercerColor);
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+.publicationForm textarea {
+    text-align: center;
+    width: 90%;
+    height: 5rem;
+    max-height: 5rem;
+    border: none;
+    background-color: var(--tercerColor);
+    padding: 0 0.5rem 0 0.5rem;
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+.text-area-field {
+    border-radius: 1rem;
+}
+
+.buttonPublication {
+    background-color: var(--tercerColor);
+    border: none;
+    width: 6rem;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
+}
+.buttonPublicationContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.photoImage {
+    border: none;
+}
+
+.precarga {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.imgBox {
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    margin: 3rem auto auto auto;
+    height: 20rem;
+    width: 20rem;
+    min-height: 1rem;
+    min-width: 1rem;
+    background-color: #d6d6d6ba;
+    border-radius: 1rem 1rem 0 0;
+    max-width: 20rem;
+}
+
+.fileIcon img {
+    width: 3rem;
+    height: 3rem;
+}
+.fileIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 20rem;
+}
+
+.publicationForm form p {
+    margin-bottom: 0;
+}
+
+.select-type {
+    border-radius: 1rem;
+    background-color: var(--primerColor);
+}

@@ -1,0 +1,130 @@
+.recover-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border: 0px none;
+    height: 20rem;
+    min-height: 1rem;
+    max-width: 20rem;
+
+    min-width: 1rem;
+    background-color: #000000ba;
+    border-radius: 1rem;
+    position: relative;
+    top: 150px;
+}
+
+.reclogo-container img {
+    background-color: white;
+    border-radius: 50%;
+    min-height: 1rem;
+    min-width: 1rem;
+    width: 8rem;
+    height: 8rem;
+}
+
+.reclogo-container {
+    display: flex;
+    flex-direction: column;
+    width: 8rem;
+    min-height: 0.5rem;
+    height: 8rem;
+    min-width: 0.5rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 87%;
+    align-items: center;
+    justify-content: center;
+}
+
+.imputRecover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 320px;
+    padding: 1rem;
+}
+
+.imputRecover h2 {
+    margin-bottom: 1rem;
+    color: var(--primerColor);
+    font-size: 1rem;
+}
+
+.imputRecover label {
+    color: var(--primerColor);
+    margin-bottom: 0.3rem;
+}
+
+.imputRecover input {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 2rem;
+    margin-bottom: 0.3rem;
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+.imputRecover button {
+    width: 40%;
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: var(--primerColor);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* recuperacion de contraseña segunda pagina*/
+
+.imput2Recover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 320px;
+    padding: 1rem;
+}
+
+.firstLabel {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.imput2Recover label {
+    color: var(--primerColor);
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.imput2Recover input {
+    width: 100%;
+    border: none;
+    border-radius: 2rem;
+    margin-bottom: 0.5rem;
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+.buttonEdit {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+}
+
+.imput2Recover button {
+    border-radius: 1rem;
+    width: 60%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    color: var(--primerColor);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Ajuste para dispositivos pequeños */
+@media (max-width: 480px) {
+    .recover-card {
+        padding: 1rem;
+    }
+}

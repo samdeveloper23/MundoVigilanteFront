@@ -1,0 +1,246 @@
+.publication-container.light {
+    margin: -1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 10rem;
+    max-width: 20rem;
+    height: auto;
+}
+
+.publication-container.dark {
+    margin: -1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 10rem;
+    max-width: 20rem;
+    height: auto;
+}
+
+.pubavatar-container {
+    display: inline-block;
+    position: relative;
+    min-height: 1rem;
+    width: 60px;
+    min-width: 1rem;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.pubavatar-container img {
+    object-fit: cover;
+    width: 60px;
+    min-width: 1rem;
+    height: 60px;
+}
+
+.correccion img {
+    width: 100px;
+    min-width: 1rem;
+    height: 100px;
+    min-height: 1rem;
+}
+
+.publication-header.light {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    list-style-type: none;
+    background-color: var(--primerColor);
+    border-radius: 1.5rem 1.5rem 0 0;
+    margin-top: 2rem;
+    height: 6rem;
+}
+
+.publication-header.dark {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    list-style-type: none;
+    background-color: var(--quintoColor);
+    color: white;
+    border-radius: 1.5rem 1.5rem 0 0;
+    margin-top: 2rem;
+    height: 6rem;
+}
+
+.header-username.light {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1.5rem 1rem 1rem 1rem;
+}
+
+.user-name {
+    font-weight: 600;
+    margin-bottom: .1rem;
+    font-size: 16px;
+}
+
+.header-username.light :nth-child(1) {
+    color: rgb(0, 0, 0);
+
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+.header-username.light time {
+    color: black;
+}
+
+.header-username.dark {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1.5rem 1rem 1rem 1rem;
+}
+
+.header-username.dark :nth-child(1) {
+    color: white;
+
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+.header-username.dark time {
+    color: black;
+}
+
+.location2 {
+    height: 2rem;
+}
+
+.photo-info {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+
+    word-wrap: break-word;
+    white-space: pre-line;
+}
+.userPublication {
+    height: 114px;
+    width: 114px;
+    margin: 0.1rem 0.1rem;
+}
+
+.photo-info.light h3 {
+    color: var(--quintoColor);
+    background-color: var(--primerColor);
+    text-decoration: none;
+    padding-top: 0.6rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.photo-info.dark h3 {
+    color: var(--primerColor);
+    background-color: var(--quintoColor);
+    text-decoration: none;
+    padding-top: 0.6rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.photo-info.light p {
+    color: var(--quintoColor);
+    background-color: var(--primerColor);
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0.6rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.photo-info.dark p {
+    color: var(--primerColor);
+    background-color: var(--quintoColor);
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0.6rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.photo-info img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.footer-like.light {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--primerColor);
+    color: black;
+    border-radius: 0 auto 1.5rem 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-like.dark {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--quintoColor);
+    color: white;
+    border-radius: 0 auto 1.5rem 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.heart {
+    width: 4rem;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+.delete-button {
+    width: 2rem;
+    border-radius: 0.3rem;
+    border: none;
+}
+.pub-p{
+    text-align: center;
+    color: black;
+}
+
+.pub-p.dark{
+    text-align: center;
+    color: white;
+}
+
+/*Este es el estilo del div de los likes, hay que eliminar el que estaba antes
+/*con cuidado para que no afecte a nada más*/
+
+.toogle-like {
+    display: flex;
+    flex-direction: row;
+}
+
+.me-gusta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.photo-info video {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: -0.5rem;
+}
+
+.photo-info video::-webkit-media-controls {
+    display: none;
+}
+
+.photo-info video::-webkit-media-controls-enclosure {
+    display: none;
+}

@@ -1,0 +1,16 @@
+.logo-navbar img {
+    width: 60px;
+    height: 60px;
+    background-color: var(--primerColor);
+    border-radius: 50%;
+    margin: 0.5rem 2rem 0.7rem 0.5rem;
+}
+
+.container-fluid button {
+    z-index: 1;
+    border-radius: 0.5rem;
+}
+.mode-button{
+    width:4rem;
+    background-color: white;
+}

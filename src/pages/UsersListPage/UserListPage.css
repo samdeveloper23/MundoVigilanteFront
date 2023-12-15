@@ -1,0 +1,131 @@
+.userList {
+    margin-top: 2rem;
+}
+
+.userList ul {
+    padding-left: 0;
+}
+.userListItem.light {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    list-style-type: none;
+    background-color: var(--primerColor);
+    border-radius: 1.5rem;
+    margin-bottom: 0.7rem;
+    margin: 2rem 2rem 0.7rem 2rem;
+    margin-right: 2rem;
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+.userListItem.dark {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    list-style-type: none;
+    background-color: var(--quintoColor);
+    color: white;
+    border-radius: 1.5rem;
+    margin-bottom: 0.7rem;
+    margin: 2rem 2rem 0.7rem 2rem;
+    margin-right: 2rem;
+    box-shadow: 4px 4px 4px 3px rgba(133, 132, 132, 0.2);
+}
+
+.userListItem a {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-decoration: none;
+}
+
+.userListItem img {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+.userInfoList.light {
+    padding-top: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    height: 5rem;
+    color: #3c8dbc;
+}
+.userInfoList.light :nth-child(1) {
+    color: var(--quintoColor);
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.userInfoList.light :nth-child(2) {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.userInfoList.light :nth-child(3) {
+    color: rgba(33, 103, 200, 0.851);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.userInfoList.dark {
+    padding-top: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    height: 5rem;
+    color: #3c8dbc;
+}
+.userInfoList.dark :nth-child(1) {
+    color: var(--primerColor);
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.userInfoList.dark :nth-child(2) {
+    color: rgb(255, 254, 254);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.userInfoList.dark :nth-child(3) {
+    color: rgba(33, 103, 200, 0.851);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.searchForm form {
+    margin: 1rem 0 1rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.searchForm input {
+    background-color: var(--tercerColor);
+    border-radius: 0.5rem 0 0 0.5rem;
+    width: 18rem;
+    max-width: 25rem;
+    border: 1px solid var(--tercerColor);
+
+    padding: 0.5rem;
+    padding-right: 0.3rem;
+    outline: none;
+}
+.searchForm button {
+    background-color: var(--tercerColor);
+    padding: 0.5rem;
+    border: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 0 0.5rem 0.5rem 0;
+    cursor: pointer;
+    border: 1px solid var(--tercerColor);
+}
+
+/*Efecto opcional, buscar color adecuado*/
+.searchForm button:hover {
+    background-color: rgb(69, 68, 68);
+}

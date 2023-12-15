@@ -1,0 +1,13 @@
+.busca {
+    width: 100%;
+    height: 100%;
+   
+    
+    position: relative;
+}
+
+.fijo {
+    position: fixed;
+    top: 88vh;
+    z-index: 1; 
+}

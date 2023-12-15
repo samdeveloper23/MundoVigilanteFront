@@ -1,0 +1,208 @@
+.settings-card.light {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 0px none;
+    min-height: 1rem;
+    max-width: 20rem;
+    min-width: 1rem;
+    background-color: var(--primerColor);
+    border-radius: 1rem;
+    position: relative;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+.settings-card.dark {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 0px none;
+    min-height: 1rem;
+    max-width: 20rem;
+    min-width: 1rem;
+    background-color: var(--quintoColor);
+    color: white;
+    border-radius: 1rem;
+    position: relative;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+.settings-card.light h2 {
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    color: black;
+    text-align: center;
+}
+
+.settings-card.dark h2 {
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    color: white;
+    text-align: center;
+}
+
+.avatar-settings {
+    display: flex;
+    width: 8rem;
+    min-height: 0.5rem;
+    height: 8rem;
+    min-width: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.524);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 85%;
+    left: 30%;
+    margin-bottom: 1rem;
+}
+
+.avatar-settings img {
+    min-height: 1rem;
+    min-width: 1rem;
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.seetings-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*personal info*/
+.edit-personalInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.edit-personalInfo button {
+    border-radius: 0.5rem;
+    width: 5rem;
+    align-self: flex-end;
+    margin-top: 0.8rem;
+    border: none;
+    margin-bottom: 0.5rem;
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
+}
+.edit-personalInfo textarea {
+    border-radius: 0.5rem;
+    max-width: 100%;
+    width: 18rem;
+    border: none;
+    align-self: center;
+    height: 5rem;
+    text-align: center;
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
+    background-color: var(--tercerColor);
+    padding:0 0.5rem 0 0.5rem;
+}
+
+/*edit place*/
+
+.edit-place {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.edit-place button {
+    border-radius: 0.5rem;
+    width: 5rem;
+    align-self: flex-end;
+    margin-top: 0.8rem;
+    border: none;
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
+    
+}
+.edit-place input {
+    border-radius: 0.5rem;
+    max-width: 100%;
+    width: 18rem;
+    border: none;
+    text-align: center;
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
+    background-color: var(--tercerColor);
+    padding:0 0.5rem 0 0.5rem;
+}
+
+/*edit avatar*/
+
+.edit-Avata {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.edit-Avata button {
+    border-radius: 0.5rem;
+    width: 5rem;
+    align-self: flex-end;
+    margin-top: 0.3rem;
+    border: none;
+    margin-right: 0.7rem;
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
+}
+.edit-Avata label,
+.edit-Avata input {
+    margin-left: 0.5rem;
+}
+
+/*edit password*/
+
+.edit-pass {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-top: 0.5rem;
+}
+.edit-pass input {
+    border-radius: 0.5rem;
+    width: 95%;
+    border: none;
+    text-align: center;
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
+    background-color: var(--tercerColor);
+}
+
+.edit-pass label {
+    margin-left: 0.8rem;
+}
+
+.edit-actualizar {
+    display: flex;
+    justify-content: flex-end;
+}
+.edit-pass button {
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 0.3rem;
+    border: none;
+    text-align: center;
+    width: 10rem;
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+.edit-currentpass {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.7rem;
+    margin-top: 0.5rem;
+}
+
+.edit-newpass {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.7rem;
+}
+
+.edit-repeatpass {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5rem;
+}

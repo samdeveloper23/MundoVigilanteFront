@@ -1,0 +1,10 @@
+.publication-location {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: baseline;
+}
+
+.publication-location p {
+    margin-left: 0.3rem;
+}
