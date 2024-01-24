@@ -16,7 +16,7 @@ const useUsers = () => {
                 setLoading(true);
 
                 const res = await fetch(
-                    `https://backmundovigilante.2.us-1.fl0.io/users?${searchParams.toString()}`,
+                    `http://localhost:3000/users?${searchParams.toString()}`,
                     {
                         headers: token ? { Authorization: token } : {},
                     }

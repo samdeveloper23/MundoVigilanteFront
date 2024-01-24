@@ -5,6 +5,7 @@ import './index.css';
 import { BrowserRouter } from 'react-router-dom';
 import { AuthProvider } from './contexts/AuthContext.jsx';
 import { ThemeProvider } from './contexts/ThemeContext';
+import 'semantic-ui-css/semantic.min.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>

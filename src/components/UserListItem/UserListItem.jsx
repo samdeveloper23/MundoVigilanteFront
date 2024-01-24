@@ -12,7 +12,7 @@ const UserListItem = ({ user }) => {
                 <img
                     src={
                         user.avatar
-                            ? `https://backmundovigilante.2.us-1.fl0.io/${user.avatar}`
+                            ? `http://localhost:3000/${user.avatar}`
                             : defaultAvatar
                     }
                     alt={`${user.username} avatar`}

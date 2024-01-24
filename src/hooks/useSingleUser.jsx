@@ -14,7 +14,7 @@ const useSingleUser = (userId) => {
                 setLoading(true);
 
                 const res = await fetch(
-                    `https://backmundovigilante.2.us-1.fl0.io/users/${userId}`,
+                    `http://localhost:3000/users/${userId}`,
                     {
                         headers: token ? { Authorization: token } : {},
                     }

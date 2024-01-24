@@ -1,6 +1,6 @@
 const deletePublicationService = async (publicationId, token) => {
     const res = await fetch(
-        `https://backmundovigilante.2.us-1.fl0.io/publications/${publicationId}`,
+        `http://localhost:3000/publications/${publicationId}`,
         {
             method: 'delete',
             headers: {

@@ -5,7 +5,7 @@ const validatePassword = async (currentPass, newPass, token) => {
     formData.append('newPass', newPass);
 
     try {
-        const res = await fetch(`https://backmundovigilante.2.us-1.fl0.io/users/password`, {
+        const res = await fetch(`http://localhost:3000/users/password`, {
             method: 'put',
             headers: {
                 Authorization: token,

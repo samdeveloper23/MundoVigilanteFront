@@ -1,5 +1,5 @@
 const onwerUserService = async (token) => {
-    const res = await fetch('https://backmundovigilante.2.us-1.fl0.io/users/owner', {
+    const res = await fetch('http://localhost:3000/users/owner', {
         headers: {
             Authorization: token,
         },

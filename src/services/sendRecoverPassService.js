@@ -1,5 +1,5 @@
 const sendRecoverPassService = async (email) => {
-    const res = await fetch('https://backmundovigilante.2.us-1.fl0.io/users/password/recover', {
+    const res = await fetch('http://localhost:3000/users/password/recover', {
         method: 'post',
         headers: {
             'Content-Type': 'application/json',

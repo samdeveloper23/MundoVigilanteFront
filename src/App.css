@@ -151,8 +151,8 @@ form {
 }
 
 .avatar-image img {
-    width: 8rem;
-    height: 8rem;
+    width: 3rem;
+    height: 3rem;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -373,4 +373,13 @@ a {
     color: white;
     border-radius: 0 0 1rem 1rem;
     margin-bottom: 2rem;
+}
+
+.avatarChat {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items:end ;
+    justify-content: center;
+    width: 1rem;
 }

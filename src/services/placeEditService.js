@@ -4,7 +4,7 @@ const placeEditService = async (place, token) => {
     formData.append('place', place);
 
     try {
-        const res = await fetch('https://backmundovigilante.2.us-1.fl0.io/users/place', {
+        const res = await fetch('http://localhost:3000/users/place', {
             method: 'PUT',
             headers: {
                 Authorization: token,

@@ -1,7 +1,7 @@
 const editRecoverPassCodeService = async (recoverPassCode, newPass) => {
     try {
         const res = await fetch(
-            `https://backmundovigilante.2.us-1.fl0.io/users/password/recover`,
+            `http://localhost:3000/users/password/recover`,
             {
                 method: 'put',
                 headers: {

@@ -14,6 +14,7 @@ import SettingsPage from './pages/SettingsPage/SettingsPage';
 import InfoPage from './pages/InfoPage/InfoPage';
 import RecoverPassPage from './pages/RecoverPassPage/RecoverPassPage';
 import ContactPage from './pages/ContactPage/ContactPage';
+import ChatPage from './pages/ChatPage/CahtPage';
 
 function App() {
     return (
@@ -22,6 +23,8 @@ function App() {
             <Routes>
 
                 <Route path='/' element={<InfoPage />} />
+
+                <Route path='/chat' element={<ChatPage />} />
 
                 <Route path='/home' element={<Root />} />
 

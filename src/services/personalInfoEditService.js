@@ -4,7 +4,7 @@ const personalInfoEditService = async (personalInfo, token) => {
     formData.append('personalInfo', personalInfo);
 
     try {
-        const res = await fetch('https://backmundovigilante.2.us-1.fl0.io/users/info', {
+        const res = await fetch('http://localhost:3000/users/info', {
             method: 'PUT',
             headers: {
                 Authorization: token,

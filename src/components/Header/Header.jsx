@@ -107,7 +107,7 @@ const Header = () => {
                             </li>
 
                             {token && (
-                                <>
+                                <div>
                                     <li
                                         className='nav-item'
                                         onClick={() => logout()}
@@ -120,7 +120,18 @@ const Header = () => {
                                             Cerrar Sesión
                                         </a>
                                     </li>
-                                </>
+                                    <li className='nav-item'>
+                                <a
+                                    className={`nav-link active text-${
+                                        !isDarkMode ? 'dark' : 'light'
+                                    }`}
+                                    aria-current='page'
+                                    href='/chat'
+                                >
+                                    Chat
+                                </a>
+                            </li>
+                                </div>
                             )}
                         </ul>
                     </div>

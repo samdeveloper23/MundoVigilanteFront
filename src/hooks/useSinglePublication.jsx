@@ -19,7 +19,7 @@ const useSinglePublication = () => {
                 setLoading(true);
 
                 const res = await fetch(
-                    `https://backmundovigilante.2.us-1.fl0.io/publications/${id}`,
+                    `http://localhost:3000/publications/${id}`,
                     {
                         headers: token ? { Authorization: token } : {},
                     }
